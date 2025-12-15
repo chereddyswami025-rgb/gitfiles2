@@ -1,0 +1,5 @@
+f=open("file1.txt","a")
+f.write("\n  java programming language")
+f=open("file1.txt","r")
+rd=f.read()
+print(rd)
