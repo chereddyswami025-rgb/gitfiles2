@@ -1,0 +1,6 @@
+f=open("mailtext.txt","r")
+c=f.read()
+print(c)
+f1=open("copy.py","w")
+f1.write(c)
+print("data copied successfully")
