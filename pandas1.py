@@ -75,3 +75,4 @@ data = {
 df=pd.DataFrame(data)
 #head displays first few records defaultly,if you give any parameter in head then it displays particular number of rows
 print(df.head(2))
+
